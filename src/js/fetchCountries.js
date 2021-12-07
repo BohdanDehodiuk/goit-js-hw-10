@@ -2,7 +2,6 @@ import Notiflix from 'notiflix';
 export default class DataFetch {
   constructor() {
     this.inputValue = '';
-    console.log(this.inputValue);
   }
   fetchCountries() {
     const URL = `https://restcountries.com/v3.1/name/${this.inputValue}?fields=name,capital,population,flags,languages,`;
